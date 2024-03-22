@@ -20,12 +20,9 @@ public class Ordinamenti {
         inizio = System.currentTimeMillis();
 
         //Togli dal commento il tipo di sort che vuoi utilizzare:
-        //quicksort(arr,0,max-1);
+        quicksort(arr,0,elementi-1);
         //bubbleSort(arr);
         //bubbleSort(arr, elem);
-
-        Collections.reverse(Arrays.asList(arr));
-
 
         fine = System.currentTimeMillis();
         double tempo=((double)fine-inizio)/1000;
